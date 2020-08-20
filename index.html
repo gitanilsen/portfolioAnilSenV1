@@ -21,7 +21,12 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>Portfolio of Anil Sen- Pure HTML5 and CSS3 Website</title>
   </head>
-  <body>
+  <body onload="loading()">
+     <!-- Website PreLoader -->
+    <div id="loader">
+      <img src="assets/img/loader.gif" alt="Loading..." />
+    </div>
+
     <!-- ShowCase Starts Here -->
     <section class="showcase" id="showcase">
       <div class="video-container">
@@ -387,6 +392,12 @@
       </footer>
       <!-- Footer Ends Here -->
     </section>
-
+    <script>
+      // Preloader
+      function loading() {
+        var preLoader = document.getElementById("loader");
+        preLoader.style.display = "none";
+      }
+    </script>
   </body>
 </html>
