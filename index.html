@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <!-- Link CSS PreFixer(PreefixFree) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"
+      integrity="sha512-p7Ey2nBhKYEi9yh0iDs+GMA0ttebOqVl3OO2oWRzRxtDoN/RedyYcHFUJZhMVi8NKRdEA7n+9NTNQX/kFIZgNw=="
+      crossorigin="anonymous"
+    ></script>
+    <!--Link Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+      integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+      crossorigin="anonymous"
+    />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Portfolio of Anil Sen- Pure HTML5 and CSS3 Website</title>
+  </head>
+  <body>
+    <!-- ShowCase Starts Here -->
+    <section class="showcase" id="showcase">
+      <div class="video-container">
+        <video src="/assets/video/showcase-bg.mp4" autoplay muted loop></video>
+      </div>
+      <div class="showcase-content">
+        <h1>Hello, I'm <span class="anil-sen">Anil Sen</span>.</h1>
+        <h1>I'm a full-stack web developer.</h1>
+        <br /><br />
+        <a href="#main-wrapper" class="btn view-work"
+          >view my work <i class="fas fa-arrow-right btn-arrow"></i
+        ></a>
+      </div>
+    </section>
+    <!-- ShowCase Ends Here -->
+    <section class="main-wrapper" id="main-wrapper">
+      <!-- Header Starts here -->
+      <header class="main-header">
+        <input type="checkbox" id="toggler" name="toggler" />
+        <label for="toggler" class="hamburger"
+          ><i class="fas fa-bars fa-2x"></i
+        ></label>
+        <nav>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about-wrapper" class="active">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#blog-wrapper">Blog</a></li>
+          <li><a href="#contact-wrapper">Contact</a></li>
+        </nav>
+      </header>
+      <!-- Header Ends here -->
+      <!-- About Starts Here -->
+      <section class="about-wrapper" id="about-wrapper">
+        <div class="heading-wrapper">
+          <h1 class="box-heading">About</h1>
+        </div>
+        <!-- Quality wrapper starts -->
+        <div class="quality-wrapper">
+          <!-- quality boxes stars -->
+          <!-- qbox1 start -->
+          <div class="quality-boxes qbox1">
+            <div class="quality-icon-box">
+              <i class="fas fa-tachometer-alt fa-4x"></i>
+            </div>
+            <h2 class="quality-heading">Fast</h2>
+            <p class="quality-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic
+              mollitia dolore fuga corporis modi?
+            </p>
+          </div>
+          <!-- qbox2 starts -->
+          <div class="quality-boxes qbox2">
+            <div class="quality-icon-box">
+              <i class="fas fa-laptop-code fa-4x"></i>
+            </div>
+            <h2 class="quality-heading">Responsive</h2>
+            <p class="quality-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic
+              mollitia dolore fuga corporis modi?
+            </p>
+          </div>
+          <!-- qbox3 starts -->
+          <div class="quality-boxes qbox3">
+            <div class="quality-icon-box">
+              <i class="far fa-lightbulb fa-4x"></i>
+            </div>
+            <h2 class="quality-heading">Intuitive</h2>
+            <p class="quality-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic
+              mollitia dolore fuga corporis modi?
+            </p>
+          </div>
+          <!-- qbox4 starts -->
+          <div class="quality-boxes qbox4">
+            <div class="quality-icon-box">
+              <i class="fas fa-rocket fa-4x"></i>
+            </div>
+            <h2 class="quality-heading">Dynamic</h2>
+            <p class="quality-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic
+              mollitia dolore fuga corporis modi?
+            </p>
+          </div>
+          <!-- qulity boxes ends here -->
+        </div>
+        <!-- Quality wrapper ends -->
+        <!-- skill wrapper starts -->
+        <div class="skills-wrapper">
+          <!-- About box starts -->
+          <div class="about-box">
+            <img
+              src="/assets/img/profile.jpg"
+              class="pro-pic"
+              alt="Profile_picture"
+            />
+            <h2>Who am I ?</h2>
+            <p class="about-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur sapiente deserunt animi ab, cumque saepe accusamus
+              harum nesciunt eaque eligendi excepturi est id provident inventore
+              iure, ad perferendis praesentium error.
+            </p>
+          </div>
+          <!-- about box ends -->
+          <!-- skill meter starts -->
+          <div class="skills-meter">
+            <div class="skill-bar">
+              <div class="skill-bar-title">HTML</div>
+              <div class="skill-dark-fill html"></div>
+              <div class="skill-completed">90%</div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-title">CSS</div>
+              <div class="skill-dark-fill css"></div>
+              <div class="skill-completed">90%</div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-title">bootstrap</div>
+              <div class="skill-dark-fill bootstrap"></div>
+              <div class="skill-completed">90%</div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-title">javascript</div>
+              <div class="skill-dark-fill javascript"></div>
+              <div class="skill-completed">80%</div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-title">jQuery</div>
+              <div class="skill-dark-fill jQuery"></div>
+              <div class="skill-completed">85%</div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-title">react</div>
+              <div class="skill-dark-fill react"></div>
+              <div class="skill-completed">70%</div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-title">node.js</div>
+              <div class="skill-dark-fill node"></div>
+              <div class="skill-completed">70%</div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-title">php</div>
+              <div class="skill-dark-fill php"></div>
+              <div class="skill-completed">80%</div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-title">UI design</div>
+              <div class="skill-dark-fill UI"></div>
+              <div class="skill-completed">50%</div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-title">photoshop</div>
+              <div class="skill-dark-fill photoshop"></div>
+              <div class="skill-completed">40%</div>
+            </div>
+          </div>
+          <!-- skill meter ends -->
+        </div>
+        <!--skill wrapper ends -->
+      </section>
+      <!-- About Ends Here -->
+      <!-- Projects Starts Here -->
+      <section class="projects-wrapper" id="portfolio">
+        <div class="heading-wrapper">
+          <div class="box-heading">Projects</div>
+        </div>
+        <!-- Project Menu -->
+        <div class="project-menu-wrapper">
+          <a href="#" class="active">ALL</a>
+          <a href="#">html&css</a>
+          <a href="#">javascript</a>
+          <a href="#">react-js</a>
+        </div>
+        <!-- project wrapper start -->
+        <div class="project-wrapper">
+          <!-- all projects starts -->
+          <div class="all-projects-container" id="all_projects">
+            <div class="img-wrapper">
+              <img
+                src="/assets/img/project2.jpg"
+                alt=""
+                class="all_p all2"
+                id="html2"
+              />
+              <div class="project-details">
+                <h3>Name of Project</h3>
+                <a href="#" class="learn-more">Learn More</a>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="/assets/img/project3.jpg"
+                alt=""
+                class="all_p all3"
+                id="html3"
+              />
+              <div class="project-details">
+                <h3>Name of Project</h3>
+                <a href="#" class="learn-more">Learn More</a>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="/assets/img/project4.jpg"
+                alt=""
+                class="all_p all4"
+                id="js1"
+              />
+              <div class="project-details">
+                <h3>Name of Project</h3>
+                <a href="#" class="learn-more">Learn More</a>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="/assets/img/project5.jpg"
+                alt=""
+                class="all_p all5"
+                id="js2"
+              />
+              <div class="project-details">
+                <h3>Name of Project</h3>
+                <a href="#" class="learn-more">Learn More</a>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="/assets/img/project6.jpg"
+                alt=""
+                class="all_p all6"
+                id="js3"
+              />
+              <div class="project-details">
+                <h3>Name of Project</h3>
+                <a href="#" class="learn-more">Learn More</a>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="/assets/img/project7.jpg"
+                alt=""
+                class="all_p all7"
+                id="react1"
+              />
+              <div class="project-details">
+                <h3>Name of Project</h3>
+                <a href="#" class="learn-more">Learn More</a>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="/assets/img/project8.jpg"
+                alt=""
+                class="all_p all8"
+                id="react2"
+              />
+              <div class="project-details">
+                <h3>Name of Project</h3>
+                <a href="#" class="learn-more">Learn More</a>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="/assets/img/project9.jpg"
+                alt=""
+                class="all_p all9"
+                id="react3"
+              />
+              <div class="project-details">
+                <h3>Name of Project</h3>
+                <a href="#" class="learn-more">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- Projects Ends Here -->
+      <!-- Blog Starts Here -->
+      <section class="blog-wrapper" id="blog-wrapper">
+        <div class="heading-wrapper">
+          <h1 class="box-heading">Blog</h1>
+        </div>
+        <!-- blog post starts here -->
+        <div class="blog-post-grid">
+
+        <div class="blog-post-container">
+          <div class="blog-img-wrapper">
+            <img src="/assets/img/post-img1.jpg" alt="post-image">
+          </div>
+          <div class="blog-content">
+            <h1 class="blog-post-heading">Lorem ipsum dolor sit amet.</h1>
+            <p class="blog-date">July 10, 2020</p>
+            <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus fuga est officiis nemo, veniam voluptatibus qui sit quo recusandae aperiam. Dolorum ipsam eum beatae consequuntur?</p>
+          </div>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+
+        <div class="blog-post-container">
+          <div class="blog-img-wrapper">
+            <img src="/assets/img/post-img2.jpg" alt="post-image">
+          </div>
+          <div class="blog-content">
+            <h1 class="blog-post-heading">Lorem ipsum dolor sit amet.</h1>
+            <p class="blog-date">July 10, 2020</p>
+            <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus fuga est officiis nemo, veniam voluptatibus qui sit quo recusandae aperiam. Dolorum ipsam eum beatae consequuntur?</p>
+          </div>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+
+        <div class="blog-post-container">
+          <div class="blog-img-wrapper">
+            <img src="/assets/img/post-img3.jpg" alt="post-image">
+          </div>
+          <div class="blog-content">
+            <h1 class="blog-post-heading">Lorem ipsum dolor sit amet.</h1>
+            <p class="blog-date">July 10, 2020</p>
+            <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus fuga est officiis nemo, veniam voluptatibus qui sit quo recusandae aperiam. Dolorum ipsam eum beatae consequuntur?</p>
+          </div>
+          <a href="#" class="read-more">Read More</a>
+
+        </div>
+      </div>
+      </section>
+      <!-- Blog Ends Here -->
+      <!-- Contact Starts Here -->
+      <section class="contact-wrapper" id="contact-wrapper">
+        <div class="heading-wrapper">
+          <h1 class="box-heading" style="color:#fff">Contact</h1>
+        </div>
+        <div class="contact-form-wrapper">
+          <h1 class="contact-form-heading">Want to work with me.</h1>
+          <form action="#">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="messege" cols="30" rows="5" placeholder="Enter Your Messege..."></textarea>
+            <input type="submit" value="Send">
+          </form>
+        </div>
+      </section>
+      <!-- Contact Ends Here -->
+      <!-- Footer Starts Here -->
+      <footer class="main-footer">
+        <div class="social-links-container">
+          <div class="facebook-box">
+          <a href="https://www.facebook.com/anil.sen.374"><i class="fab fa-facebook fa-2x facebook-icon"></i></a> 
+          </div>
+          <div class="twitter-box">
+          <a href="https://twitter.com/anilsen2130"><i class="fab fa-twitter fa-2x twitter-icon" ></i></a>
+          </div>
+          <div class="linkedin-box">
+          <a href="https://www.linkedin.com/in/anil-sen-206272122/"><i class="fab fa-linkedin fa-2x linkedin-icon"></i></a>
+          </div>
+          <div class="github-box">
+          <a href="https://github.com/gitanilsen"><i class="fab fa-github fa-2x github-icon"></i></a>
+          </div>
+        </div>
+        <p class="footer-text"><span><a href="https://gitanilsen.github.io/portfolioAnilSenV2/" style="color: #e84393;" target="_blank">Anil Sen</a></span> &copy; 2020 </p>
+        <div class="go-top-box">
+          <a href="#"><i class="fas fa-arrow-up fa-2x go-top-icon" title="Go to Top"></i></a>
+        </div>
+      </footer>
+      <!-- Footer Ends Here -->
+    </section>
+
+  </body>
+</html>
